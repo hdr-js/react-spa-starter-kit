@@ -1,0 +1,19 @@
+.nav-root {
+  position: relative;
+  z-index: 10;
+  height: 64px;
+  padding: 0 15px;
+  border-bottom: 1px solid #eeeeee;
+  .actions-container {
+    flex: 1;
+    > button {
+      margin-left: 15px;
+    }
+    .side-bar-exp {
+      transform: rotate(180deg);
+    }
+    .side-bar-col {
+      transform: rotate(0deg);
+    }
+  }
+}

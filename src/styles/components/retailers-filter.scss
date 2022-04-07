@@ -1,0 +1,29 @@
+.filter-dialog-root {
+  width: 500px;
+  .filter-dialog-title {
+    font-size: 16px;
+    padding: 15px;
+    border-bottom: 1px solid #e4e7eb;
+  }
+  .filter-dialog-body {
+    overflow-y: scroll;
+    max-height: 500px;
+    .filter-section {
+      padding: 15px;
+      .filter-section-title {
+        font-size: 14px;
+        color: #66788a;
+      }
+    }
+    .filter-section:not(:last-child) {
+      border-bottom: 1px solid #e4e7eb;
+    }
+  }
+  .filter-dialog-footer {
+    border-top: 1px solid #e4e7eb;
+    padding: 15px;
+    button {
+      margin-left: 15px;
+    }
+  }
+}

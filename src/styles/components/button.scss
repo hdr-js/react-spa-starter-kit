@@ -1,0 +1,58 @@
+//button
+.btn {
+  background-color: #f95050;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 19px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: #20acec;
+}
+
+.btn-small {
+  padding: 14px;
+}
+
+.btn-outlined {
+  background-color: transparent;
+  height: 50px;
+  padding: 18px 19px;
+  border: 1px solid #f95050;
+  color: #f95050;
+}
+
+.btn-disabled {
+  box-shadow: none;
+  opacity: 0.5;
+}
+.btn-disabled:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.btn-outlined.btn-disabled:hover {
+  border: 2px solid #c6cacf;
+  color: #c6cacf;
+}
+
+.icon-text-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 36px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}

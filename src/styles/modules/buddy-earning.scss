@@ -1,0 +1,32 @@
+.buddy-earning-root {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  .earning-selectors {
+    flex: 1;
+    button:nth-child(n) {
+      margin-right: 15px;
+    }
+    .search-field {
+      width: calc(50% - 115px);
+      background-color: white;
+      border: 1px solid #e4e7eb;
+      border-radius: 4px;
+      padding: 0 12px;
+      .search-icon {
+        color: #9ea0a5;
+      }
+    }
+  }
+  .export-control {
+    .export-btn {
+      width: 110px;
+      outline: none;
+      box-shadow: none;
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

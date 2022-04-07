@@ -1,0 +1,116 @@
+.text-root {
+  white-space: nowrap;
+}
+.amount-root {
+  white-space: nowrap;
+}
+.number-field {
+  margin: 0 !important;
+  width: 64px;
+}
+.status-root {
+  white-space: nowrap;
+}
+.price {
+  max-width: unset;
+}
+.name {
+  text-transform: capitalize;
+  max-width: 15ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.time {
+  white-space: nowrap;
+}
+.code {
+  color: #0d1117;
+}
+.link {
+  color: #0d1117;
+}
+.link:hover {
+  color: #0d1117;
+  text-decoration: underline;
+}
+.null-value {
+  color: #9ea0a5;
+}
+.grey-text {
+  color: #9ea0a5;
+}
+.red-value {
+  color: #ec4c47;
+}
+.striked-value {
+  text-decoration: line-through;
+}
+
+.status-value {
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.indicator {
+  height: 8px;
+  margin: auto 0;
+  width: 8px;
+  border-radius: 50%;
+}
+.grey-indicator {
+  background-color: #9ea0a5;
+}
+.green-indicator {
+  background-color: #47b881;
+}
+.yellow-indicator {
+  background-color: #f7d154;
+}
+.red-indicator {
+  background-color: #ec4c47;
+}
+.blue-indicator {
+  background-color: #1070ca;
+}
+.toggle-root {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.toggle-left {
+  left: 5px;
+}
+.suspicious-cell {
+  position: relative;
+}
+.suspicious-indicator {
+  position: absolute !important;
+  top: 24px;
+  left: -24px;
+  width: 54px;
+  height: 6px !important;
+  transform: rotate(90deg);
+}
+.red-progress-bg {
+  background: #ec4c47 !important;
+}
+.red-progress-bar {
+  background: #ffadaa !important;
+}
+.status-drop-btn {
+  height: 30px;
+  text-transform: none !important;
+  padding: 0 15px !important;
+}
+.red-btn {
+  background-color: #ec4c47 !important;
+}
+.green-btn {
+  background-color: #47b881 !important;
+}
+.grey-btn {
+  background-color: #9ea0a5 !important;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>React Starter Kit</title>
+    <style>
+      .loader-sec {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .simple-loader {
+        height: 120px;
+        width: 120px;
+        animation: bulge 2s linear infinite;
+      }
+
+      @keyframes bulge {
+        0% {
+          width: 120px;
+          height: 120px;
+        }
+        25% {
+          width: 100px;
+          height: 100px;
+        }
+        50% {
+          width: 120px;
+          height: 120px;
+        }
+        75% {
+          width: 100px;
+          height: 100px;
+        }
+        100% {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <!-- loader starts -->
+      <section class="loader-sec">
+        <svg class="simple-loader" viewBox="-11.5 -10.23174 23 20.46348">
+          <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
+          <g stroke="#61dafb" stroke-width="1" fill="none">
+            <ellipse rx="11" ry="4.2" />
+            <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+            <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+          </g>
+        </svg>
+      </section>
+      <!-- loader ends -->
+    </div>
+  </body>
+</html>

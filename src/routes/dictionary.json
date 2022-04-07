@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/",
+    "access": ["GUEST", "ADMIN", "MANAGER"],
+    "component": "Root",
+    "exact": true
+  },
+  {
+    "path": "/page-not-found",
+    "access": ["GUEST", "ADMIN", "MANAGER"],
+    "component": "PageNotFound"
+  },
+  {
+    "path": "/login",
+    "access": ["GUEST", "ADMIN", "MANAGER"],
+    "component": "Login",
+    "layout": false
+  },
+  {
+    "path": "/dashboard",
+    "access": ["ADMIN", "MANAGER"],
+    "component": "Dashboard"
+  },
+  {
+    "path": "/products",
+    "access": ["ADMIN"],
+    "component": "Products"
+  },
+  {
+    "path": "/products/:id",
+    "access": ["ADMIN"],
+    "component": "Product"
+  }
+]

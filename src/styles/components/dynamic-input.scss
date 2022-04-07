@@ -1,0 +1,20 @@
+.dynamic-input-root {
+  display: grid;
+  .dynamic-input-body {
+    margin-top: 10px;
+    .dynamic-input-fields {
+      margin: 0 15px;
+      .category-id {
+        margin-right: 15px;
+        width: 36px;
+      }
+      .active-switch {
+        margin-left: 15px;
+        width: 64px;
+      }
+      .dynamic-input-remove {
+        color: rgb(146, 19, 15);
+      }
+    }
+  }
+}

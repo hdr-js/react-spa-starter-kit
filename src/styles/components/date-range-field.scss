@@ -1,0 +1,23 @@
+.date-field-container {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  .date-range-text {
+    color: white;
+    font-size: 14px;
+    line-height: normal;
+    margin: 0 10px;
+  }
+  .earning-filter-btn {
+    margin-right: 10px;
+    outline: none;
+    box-shadow: none;
+  }
+  .date-icon {
+    color: white;
+  }
+  .separator-icon {
+    color: white;
+  }
+}

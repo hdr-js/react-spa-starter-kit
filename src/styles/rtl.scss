@@ -1,0 +1,470 @@
+// -----------------------------------------------Login-----------------------------------------
+body[dir='rtl'] .login-title {
+  text-align: right;
+}
+
+body[dir='rtl'] .login-field-root {
+  input {
+    text-align: right !important;
+  }
+}
+
+body[dir='rtl'] .actions-container {
+  flex: 1;
+  > button {
+    margin-right: 15px;
+  }
+  .side-bar-exp {
+    transform: rotate(0deg);
+  }
+  .side-bar-col {
+    transform: rotate(180deg);
+  }
+}
+body[dir='rtl'] .drawer-root {
+  border-right: none;
+  border-left: 1px solid #eeeeee;
+}
+body[dir='rtl'] .confirmation-actions {
+  > button:last-child {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+}
+body[dir='rtl'] .stat-content {
+  text-align: right;
+}
+body[dir='rtl'] .stat-change-value {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+body[dir='rtl'] .time-range-btn {
+  .calender-icon {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .date-separator {
+    margin: 0 10px;
+    transform: rotate(180deg);
+  }
+}
+
+body[dir='rtl'] .kpi-stats-container {
+  > div:nth-child(n + 4) {
+    border-top: 1px solid #e4e7eb;
+  }
+  > div:nth-child(3n) {
+    border-left: none;
+    border-right: 1px solid #e4e7eb;
+  }
+  > div:nth-child(3n + 1) {
+    border-right: none;
+    border-left: 1px solid #e4e7eb;
+  }
+}
+
+body[dir='rtl'] .table-cell {
+  .time {
+    direction: ltr;
+  }
+  .time-tool-tip {
+    direction: ltr;
+  }
+  .status-root {
+    .status-value {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+}
+
+body[dir='rtl'] .table-root {
+  .align-text-left {
+    text-align: right;
+  }
+  .align-text-right {
+    text-align: left;
+  }
+}
+
+body[dir='rtl'] .ping-indicator {
+  margin-left: 10px;
+  margin-right: 0 !important;
+}
+
+body[dir='rtl'] .filter-btn {
+  margin-left: 10px;
+  margin-right: 0 !important;
+}
+
+body[dir='rtl'] .search-field {
+  padding-left: 12px;
+  padding-right: 0 !important;
+  .search-icon {
+    margin-left: 10px;
+  }
+}
+
+body[dir='rtl'] .export-control {
+  button {
+    margin-right: 10px;
+    margin-left: 0 !important;
+  }
+}
+
+body[dir='rtl'] .theme-btn {
+  span {
+    svg {
+      margin-right: 0 !important;
+      margin-left: 15px;
+    }
+  }
+}
+
+body[dir='rtl'] .options-helper {
+  text-align: right;
+}
+
+body[dir='rtl'] .filter-subheader {
+  text-align: right;
+}
+
+body[dir='rtl'] .toggle-root {
+  left: 5px !important;
+}
+
+body[dir='rtl'] .status-drop-btn {
+  span {
+    svg {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+body[dir='rtl'] .filter-dialog-title {
+  text-align: right !important;
+}
+
+body[dir='rtl'] .filter-section-title {
+  text-align: right !important;
+}
+
+body[dir='rtl'] .filter-section-body {
+  display: flex;
+  flex-direction: column;
+}
+
+body[dir='rtl'] .options-chips {
+  .chip-root {
+    direction: ltr;
+  }
+}
+
+body[dir='rtl'] .upload-label {
+  text-align: right;
+}
+
+// --------------------------------------------------Buddy detail--------------------------------------------
+body[dir='rtl'] .action-link-text,
+.details-sub-title {
+  margin-right: 10px !important;
+}
+body[dir='rtl'] .image-res {
+  direction: ltr;
+}
+
+body[dir='rtl'] .details-content {
+  text-align: right;
+}
+
+body[dir='rtl'] .buddy-avatar-placeholder-img {
+  margin-right: 30%;
+  margin-top: 30%;
+}
+
+// ----------------------------------------------------Reset Password-----------------------------------------------
+
+body[dir='rtl'] .buddy-reset-password {
+  margin-left: -162px;
+}
+
+body[dir='rtl'] .password-helper-text {
+  text-align: right !important;
+}
+
+// -------------------------------------------------------Customer detail----------------------------------------
+
+body[dir='rtl'] .title-description,
+.profile-title {
+  margin: 0 15px 0 0;
+}
+
+body[dir='rtl'] .customer-address,
+.customer-location {
+  text-align: right;
+}
+
+body[dir='rtl'] .form-actions {
+  text-align: right;
+}
+
+body[dir='rtl'] .theme-btn {
+  margin-right: 0;
+}
+
+// ---------------------------------------------------Product detail--------------------------------------------
+
+body[dir='rtl'] .product-status {
+  text-align: right;
+}
+
+body[dir='rtl'] .product-title {
+  text-align: right;
+}
+
+body[dir='rtl'] .attribute-title {
+  text-align: right;
+}
+
+body[dir='rtl'] .attribute-chips {
+  text-align: right;
+}
+
+body[dir='rtl'] .product-save-btn {
+  text-align: right;
+}
+
+// ------------------------------------------------------Category detail---------------------------------------
+
+body[dir='rtl'] .category-title {
+  text-align: right;
+}
+
+body[dir='rtl'] .category-status {
+  text-align: right;
+}
+
+body[dir='rtl'] .category-save-btn {
+  text-align: right;
+}
+
+body[dir='rtl'] .subCategory-title {
+  text-align: right;
+}
+
+body[dir='rtl'] .category-id {
+  margin-left: 15px;
+  margin-right: 0 !important;
+}
+
+// -------------------------------------Language Dropdown ---------------------------------
+
+body[dir='rtl'] .language-header {
+  text-align: right;
+}
+
+// --------------------------------------Configurations -----------------------------------
+
+body[dir='rtl'] .config-card {
+  .header-description {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+body[dir='rtl'] .config-action {
+  text-align: right;
+}
+
+// ------------------------------------------Buddy Earning------------------------------
+
+body[dir='rtl'] .earning-selectors {
+  button:nth-child(n) {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+
+// -------------------------------------------App Banner-----------------------------
+
+body[dir='rtl'] .app-banner-btn {
+  text-align: right;
+}
+
+// ----------------------------------------------Packages---------------------------------
+
+body[dir='rtl'] .details-root {
+  text-align: right;
+}
+
+body[dir='rtl'] .package-btn {
+  text-align: right;
+}
+
+// ---------------------------------------------Retailers-------------------------------------------
+
+body[dir='rtl'] .filter-dialog-footer {
+  float: right;
+}
+
+body[dir='rtl'] .hub-heading {
+  text-align: right;
+}
+
+body[dir='rtl'] .retailer-actions {
+  text-align: right;
+}
+
+body[dir='rtl'] .retailer-header {
+  text-align: right;
+}
+
+// ---------------------------------------------------Service Area-----------------------------------------
+
+body[dir='rtl'] .service-area-heading-wrapper {
+  text-align: right;
+}
+
+// ---------------------------------------------------Buddy Tracking-----------------------------------------
+
+body[dir='rtl'] .buddies-filter-wrapper {
+  text-align: right;
+}
+
+body[dir='rtl'] .live-buddy-detail {
+  position: inherit;
+  padding-top: 20px !important;
+}
+
+body[dir='rtl'] .buddy-marker-label {
+  display: table;
+  margin-left: -80px;
+  background-color: #454545;
+  color: #ffffff;
+  font-weight: bold;
+  width: 170px;
+  opacity: 0.8;
+  padding-left: 60px;
+  padding-right: 0;
+  border-radius: 5px;
+  word-break: break-word;
+}
+
+// ---------------------------------------------------Order Details-----------------------------------------
+
+body[dir='rtl'] .give-promo-btn {
+  margin-left: 5px;
+}
+
+body[dir='rtl'] .status-indicator {
+  margin-right: 5px;
+}
+
+body[dir='rtl'] .title-container {
+  margin-right: 15px;
+}
+
+body[dir='rtl'] .profile-details {
+  text-align: right;
+}
+
+body[dir='rtl'] .title-container {
+  text-align: right;
+}
+
+body[dir='rtl'] .delivery-col {
+  border-right: 1px solid #e4e7eb;
+}
+
+body[dir='rtl'] .promo-info {
+  text-align: right;
+}
+
+body[dir='rtl'] .info-label {
+  margin-right: 0 !important;
+  margin-left: 15px;
+}
+
+body[dir='rtl'] .delivery-section {
+  border-right: 1px solid #e4e7eb;
+  text-align: right;
+}
+
+// -------------------------------------------Give Promo--------------------------------------
+
+body[dir='rtl'] .promo-cancel-btn {
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+body[dir='rtl'] .drawer-heading {
+  text-align: right;
+}
+
+// -------------------------------------------Reschedule Order--------------------------------------
+
+body[dir='rtl'] .reschedule-header {
+  text-align: right;
+}
+
+body[dir='rtl'] .reschedule-actions {
+  text-align: right;
+}
+
+// ------------------------------------------------Promos------------------------------------------------------
+
+body[dir='rtl'] .promo-type-header {
+  text-align: right;
+}
+
+body[dir='rtl'] .section-root {
+  text-align: right;
+}
+
+body[dir='rtl'] .promo-create-btn {
+  text-align: right !important;
+}
+
+body[dir='rtl'] .adornment {
+  position: absolute !important;
+}
+
+body[dir='rtl'] .MuiOutlinedInput-inputAdornedEnd {
+  padding-right: 35px !important;
+}
+
+// -----------------------------------------------Time Picker------------------------------------------------
+
+body[dir='rtl'] .tab-label {
+  text-align: right !important;
+}
+
+// -----------------------------------------------Snack Bar--------------------------------------------------
+
+body[dir='rtl'] .snackbar-cancel-btn {
+  margin-left: 0 !important;
+  margin-right: 60px;
+}
+
+// -----------------------------------------------Retailer Users------------------------------------------------
+
+body[dir='rtl'] .retailer-user-save-btn {
+  text-align: right !important;
+}
+body[dir='rtl'] .retailer-user-sub-header {
+  margin-right: 10px;
+}
+
+body[dir='rtl'] .retailer-user-title {
+  padding-right: 15px;
+}
+
+body[dir='rtl'] .retailer-user-status {
+  padding-right: 15px;
+}
+
+body[dir='rtl'] .retailer-user-phone  input {
+  direction: ltr;
+  text-align: right;
+}

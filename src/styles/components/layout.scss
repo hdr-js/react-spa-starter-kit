@@ -1,0 +1,22 @@
+.layout-root {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  .main-section {
+    flex: 1;
+    display: grid;
+    grid-template-rows: 64px calc(100% - 64px);
+    .route-root {
+      overflow: auto;
+      height: 100%;
+      .grid-container {
+        display: grid;
+      }
+    }
+  }
+  .route-root {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+}

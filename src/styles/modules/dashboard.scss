@@ -1,0 +1,32 @@
+.dashboard-root {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 15px;
+  .app-stats-container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .fleet-stats-container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .kpi-stats-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    border: 1px solid #e4e7eb;
+    border-radius: 4px;
+    > div:nth-child(n + 4) {
+      border-top: 1px solid #e4e7eb;
+    }
+    > div:nth-child(3n) {
+      border-left: 1px solid #e4e7eb;
+    }
+    > div:nth-child(3n + 1) {
+      border-right: 1px solid #e4e7eb;
+    }
+  }
+}

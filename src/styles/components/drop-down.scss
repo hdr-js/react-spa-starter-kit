@@ -1,0 +1,40 @@
+.popover-shadow {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 5px;
+}
+.drop-down-root {
+  width: 280px;
+  .filter-list {
+    display: flex;
+    max-height: 500px;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 15px;
+    .filter-option {
+      margin: 0;
+      height: 56px;
+    }
+    .filter-subheader {
+      margin: 10px;
+      font-size: 14px
+    }
+  }
+  .filter-actions-root {
+    display: flex;
+    border-top: 1px solid rgba(146, 146, 146, 0.18);
+    .filter-action-btn {
+      width: 50%;
+      border-radius: 0px;
+      height: 48px;
+      outline: none;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+    }
+    .first-btn{
+      border-bottom-left-radius: 4px;
+    }
+    .last-btn {
+      border-bottom-right-radius: 4px;
+    }
+  }
+}

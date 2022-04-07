@@ -1,0 +1,21 @@
+.refunds-root {
+  box-sizing: border-box;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  .actions-container {
+    .import-btn {
+      margin-right: 15px;
+    }
+    .export-btn {
+      width: 110px;
+      height: 36px;
+      outline: none;
+      box-shadow: none;
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

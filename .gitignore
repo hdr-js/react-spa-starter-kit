@@ -1,0 +1,16 @@
+.idea
+/.history
+/node_modules
+/build
+.idea/*
+npm-debug.log.3021201201
+npm-debug.log.*
+/documentation
+LICENSE.md
+README.md
+ISSUE_TEMPLATE.md
+CHANGELOG.md
+yarn.lock
+yarn-error.log
+package-lock.json
+.env

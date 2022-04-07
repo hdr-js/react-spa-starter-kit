@@ -1,0 +1,136 @@
+.categories-root {
+  box-sizing: border-box;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  .search-filter-bar {
+    display: flex;
+    width: 50%;
+    .filter-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 110px;
+      height: 36px;
+      margin-right: 15px;
+      background-color: white;
+      border: 1px solid #e4e7eb;
+      box-shadow: none;
+      outline: none;
+      .filter-icon {
+        color: #9ea0a5;
+      }
+    }
+  }
+  .export-control {
+    .export-btn {
+      width: 110px;
+      height: 36px;
+      outline: none;
+      box-shadow: none;
+      margin-left: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.category-root {
+  padding: 15px;
+  .category-card {
+    background-color: white;
+    border: 1px solid #e4e7eb;
+    border-radius: 4px;
+    .category-header {
+      height: 64px;
+      padding: 15px;
+      border-bottom: 1px solid #e4e7eb;
+      .status-control {
+        margin: 0;
+      }
+    }
+    .category-body {
+      padding: 15px;
+      .details-root {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content;
+        grid-gap: 15px;
+        .category-title {
+          font-size: 24px;
+          color: #212529;
+        }
+        .grey-title {
+          font-size: 24px;
+          color: #9ea0a5;
+        }
+        .info-label {
+          font-size: 12px;
+          color: #66788a;
+        }
+        .info-value {
+          font-size: 16px;
+        }
+      }
+      .image-container {
+        .image-preview-container {
+          width: 160px;
+          height: 160px;
+          padding: 10px;
+          border: 1px solid #e4e7eb;
+          border-radius: 4px;
+          overflow: hidden;
+          .image-placeholder {
+            font-size: 72px;
+            color: #e4e7eb;
+          }
+        }
+        .image-res {
+          font-size: 12px;
+          color: #9ea0a5;
+          text-align: center;
+          margin: 10px 0;
+        }
+        .upload-image-btn {
+          margin-top: 15px;
+          line-height: 24px;
+          cursor: pointer;
+          color: #0d1117;
+          text-align: center;
+        }
+      }
+    }
+    .form-root {
+      border-top: 1px solid #e4e7eb;
+      .form-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        padding: 15px;
+        .span-2 {
+          grid-column: span 2;
+        }
+      }
+      .subCategory-title {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 6px 15px;
+        border-bottom: 1px solid #e4e7eb;
+      }
+      .dynamic-input-add-btn {
+        padding: 15px;
+        justify-content: end;
+      }
+      .form-footer {
+        box-sizing: border-box;
+        padding: 15px;
+        border-top: 1px solid #e4e7eb;
+        .save-btn {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

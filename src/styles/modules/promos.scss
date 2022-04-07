@@ -1,0 +1,48 @@
+.promos-root {
+  box-sizing: border-box;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  .promos-filters-container {
+    display: flex;
+    justify-content: space-between;
+    .search-filter-bar {
+      display: flex;
+      width: 50%;
+      .filter-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 110px;
+        height: 36px;
+        margin-right: 15px;
+        background-color: white;
+        border: 1px solid #e4e7eb;
+        box-shadow: none;
+        outline: none;
+        .filter-icon {
+          color: #9ea0a5;
+        }
+      }
+      .search-field {
+        width: calc(100% - 115px);
+        background-color: white;
+        border: 1px solid #e4e7eb;
+        border-radius: 4px;
+        padding: 0 12px;
+        .search-icon {
+          color: #9ea0a5;
+        }
+      }
+    }
+    .create-btn {
+      width: 110px;
+      height: 36px;
+      outline: none;
+      box-shadow: none;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

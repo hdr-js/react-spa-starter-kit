@@ -1,0 +1,33 @@
+.app-banners-root {
+    padding: 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+    .banner-list {
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: repeat(4, 1fr);
+      .banner-tile-root {
+        height: 160px;
+        min-width: 300px;
+        border-radius: 4px;
+        box-shadow: 0 0 20px 5px rgba(205, 210, 220, 0.45);
+        .banner-image-container {
+          overflow: hidden;
+          width: 100%;
+          height: calc(100% - 48px);
+          border-radius: 8px 8px 0px 0px;
+        }
+        .banner-footer {
+          box-sizing: border-box;
+          height: 48px;
+          padding: 0 15px;
+          background-color: white;
+          font-size: 12px;
+          border-radius: 0px 0px 8px 8px;
+          position: relative;
+          box-shadow: 0 -10px 10px -5px rgba(205, 210, 220, 0.45);
+        }
+      }
+    }
+  }
