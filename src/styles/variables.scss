@@ -1,0 +1,52 @@
+@import './fonts.scss';
+
+// colors
+$black-color: #000000;
+$dark-gray-color: #222222;
+$white-color: #ffffff;
+$black-tint-color: rgba(0, 0, 0, 0.8);
+$gray-tint-color: rgba(0, 0, 0, 0.4);
+
+//sizes
+$nav-height: 4.5rem;
+$footer-height: 3rem;
+$headerControls-height: 3rem;
+$poster-height: 550px;
+$poster-width: 360px;
+
+$blur-radius: 0.5rem;
+
+$a-font: 0.5rem;
+$aa-font: 0.8rem;
+$aaa-font: 1rem;
+$aaaa-font: 1.5rem;
+$aaaaa-font: 2rem;
+$aaaaaa-font: 3rem;
+$giant-font: 4rem;
+
+//fonts
+$font-montserrat: 'Montserrat', sans-serif;
+$font-din: 'Din LT Next', sans-serif;
+
+//spacings
+$thiner-spacing: 0.5rem;
+$thin-spacing: 1rem;
+$normal-spacing: 1.5rem;
+$thick-spacing: 2rem;
+$big-spacing: 4rem;
+
+//responsiveness
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+// weights
+$semi-bold-weight: 500;
+$light-weight: 200;
+
+// borders
+$gray-border: 1px solid $dark-gray-color;
+$white-border: 0.5rem solid $white-color;

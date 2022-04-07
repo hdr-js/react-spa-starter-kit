@@ -1,0 +1,31 @@
+// Responsive Media Queries
+
+@function get-breapoint($break) {
+  @if (map-has-key($breakpoints, $break) == true) {
+    @return map-get($breakpoints, $break);
+  } @else {
+    @return $break;
+  }
+}
+
+@mixin respond-above($break) {
+  $breakpoint: get-breapoint($break);
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin respond-below($break) {
+  $breakpoint: get-breapoint($break);
+  @media only screen and (max-width: $breakpoint - 1) {
+    @content;
+  }
+}
+
+@mixin respond-between($lower, $upper) {
+  $lower-breakpoint: get-breapoint($lower);
+  $upper-breakpoint: get-breapoint($upper);
+  @media only screen and (min-width: $lower-breakpoint) and (max-width: $upper-breakpoint - 1) {
+    @content;
+  }
+}

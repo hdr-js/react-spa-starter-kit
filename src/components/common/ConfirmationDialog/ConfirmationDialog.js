@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeConfirmationDialog } from '../../../ducks/confirmation/actions';
+import './confirmation-dialog.scss';
 
 const ConfirmationDialog = () => {
   const { t } = useTranslation();

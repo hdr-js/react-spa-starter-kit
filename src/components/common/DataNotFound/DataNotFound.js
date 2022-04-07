@@ -2,8 +2,8 @@ import React from 'react';
 import propTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
-
 import Button from '@material-ui/core/Button';
+import './data-not-found.scss';
 
 const DataNotFound = ({ history, code, title, message, navigation: { label, path } }) => {
   return (

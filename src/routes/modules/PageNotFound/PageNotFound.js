@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 
 import Button from '@material-ui/core/Button';
+import './page-not-found.scss';
 
 const PageNotFound = ({ history }) => {
   return (

@@ -1,0 +1,55 @@
+@import './variables.scss';
+@import './rtl.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-din;
+  a {
+    color: inherit;
+  }
+
+  * {
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $dark-gray-color;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .theme-btn {
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    text-overflow: clip;
+    overflow: hidden;
+    span {
+      svg {
+        margin-right: 15px;
+      }
+    }
+  }
+  
+  .circular-btn {
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+  }
+  
+  .module-root {
+    box-sizing: border-box;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+}

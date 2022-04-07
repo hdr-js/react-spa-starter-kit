@@ -11,6 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import LanguageSelect from '../LanguageSelect';
 import { authLogout } from '../../../ducks/auth/actions';
 import { askConfirmation } from '../../../ducks/confirmation/actions';
+import './nav-bar.scss';
 
 const AppBar = ({ collapsed, onToggle }) => {
   const { t } = useTranslation();

@@ -17,6 +17,8 @@ import logoAsset from '../../../assets/img/react-logo.png';
 import LanguageSelect from '../../../components/common/LanguageSelect';
 import { authLogin } from '../../../ducks/auth/actions';
 
+import './login.scss';
+
 const Login = () => {
   const { t } = useTranslation();
   const dispatch = useDispatch();

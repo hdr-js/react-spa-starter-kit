@@ -10,6 +10,7 @@ import authToken from '../../utils/authToken';
 import navigationConfig from '../../utils/data/navigationConfig';
 import routesDictionary from '../../routes/dictionary.json';
 // import Notification from '../common/Notification';
+import './layout.scss';
 
 const Layout = ({ children }) => {
   const { pathname } = useLocation();

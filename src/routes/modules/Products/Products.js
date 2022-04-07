@@ -7,6 +7,7 @@ import FilterSelect from '../../../components/common/FilterSelect';
 import DebounceField from '../../../components/common/DebounceField';
 import AppLoader from '../../../components/common/AppLoader';
 import { productsConfig } from '../../../utils/data/tableConfigs';
+import './products.scss';
 
 const Products = () => {
   const { t } = useTranslation();

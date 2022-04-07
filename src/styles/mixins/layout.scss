@@ -1,0 +1,63 @@
+@import '../variables.scss';
+
+@mixin only-vertical-scroll() {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@mixin only-horizontal-scroll() {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@mixin hide-local-scrollbar() {
+  ::-webkit-scrollbar-thumb {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }
+}
+
+@mixin fixed-top-full-width() {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+@mixin fixed-bottom-full-width() {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@mixin stick-top-full-width() {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+@mixin flex-start-center() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-center-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between-center() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-between-start() {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

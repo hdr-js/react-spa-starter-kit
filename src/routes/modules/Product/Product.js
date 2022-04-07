@@ -23,6 +23,7 @@ import AppLoader from '../../../components/common/AppLoader';
 import { induceImageURL, uploadImageResource } from '../../../utils/helper';
 import { languageMap } from '../../../utils/data/enumMap';
 import { askConfirmation } from '../../../ducks/confirmation/actions';
+import './products.scss';
 
 const Product = ({
   addProduct,

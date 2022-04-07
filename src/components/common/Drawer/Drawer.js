@@ -41,6 +41,7 @@ import DomainOutlined from '@material-ui/icons/DomainOutlined';
 
 import logoImage from '../../../assets/img/react-logo.png';
 import queries from '../../../utils/data/queries';
+import './drawer.scss';
 
 const icons = {
   DashboardOutlined,

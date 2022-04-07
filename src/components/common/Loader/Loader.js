@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 import ContentLoader from 'react-content-loader';
 
 import configs from '../../../utils/data/contentLoaderConfig';
+import './loader.scss';
 
 const Loader = ({ variant }) => {
   const configData = configs[variant];

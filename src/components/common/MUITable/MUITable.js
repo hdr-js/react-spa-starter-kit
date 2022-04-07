@@ -16,6 +16,7 @@ import KeyboardArrowDown from '@material-ui/icons/KeyboardArrowDown';
 import Refresh from '@material-ui/icons/Refresh';
 
 import CellRenderer from './CellRenderer';
+import'./mui-table.scss'
 
 const MUITable = props => {
   const {

@@ -10,7 +10,7 @@ import routesConfig from './routes/dictionary.json';
 import RouteFactory from './utils/RouteFactory';
 
 import Layout from './components/Layout';
-import './index.scss';
+import './styles/globals.scss';
 
 const theme = createMuiTheme({
   typography: {

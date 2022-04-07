@@ -11,6 +11,7 @@ import AppLoader from '../../../components/common/AppLoader';
 import { orderConfig } from '../../../utils/data/tableConfigs';
 import { orderTypes } from '../../../utils/data/enumMap';
 import listData from './data.json';
+import './dashboard.scss';
 
 const Dashboard = () => {
   const isStuck = record => {

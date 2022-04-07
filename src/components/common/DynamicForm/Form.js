@@ -6,6 +6,8 @@ import Button from '@material-ui/core/Button';
 import { useTranslation } from 'react-i18next';
 import FieldRenderer from './FieldRenderer';
 import { askConfirmation } from '../../../ducks/confirmation/actions';
+import './dynamic-form.scss';
+import './dynamic-input.scss';
 
 const Form = ({ initialValues, renderConfig, onUpdate }) => {
   const [changed, setChanged] = React.useState({});

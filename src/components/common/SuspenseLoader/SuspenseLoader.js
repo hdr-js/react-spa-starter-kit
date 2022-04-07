@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import './suspense-loader.scss';
 
 const SuspenseLoader = () => {
   return (

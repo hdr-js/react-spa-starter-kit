@@ -1,5 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import './cell-renderer.scss';
 
 import * as cellComponents from '../cells';
 import Loader from '../../Loader';
