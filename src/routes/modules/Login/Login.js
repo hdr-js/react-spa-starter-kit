@@ -3,7 +3,7 @@
 /* eslint-disable max-len */
 
 import React from 'react';
-import propTypes from 'prop-types';
+
 import moment from 'moment';
 import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
@@ -16,7 +16,6 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 import logoAsset from '../../../assets/img/react-logo.png';
 import LanguageSelect from '../../../components/common/LanguageSelect';
 import { authLogin } from '../../../ducks/auth/actions';
-
 import './login.scss';
 
 const Login = () => {
@@ -159,13 +158,6 @@ const Login = () => {
       </div>
     </div>
   );
-};
-
-Login.propTypes = {
-  isLoading: propTypes.bool,
-  loginTokenRequest: propTypes.func,
-  totalValue: propTypes.string,
-  apiError: propTypes.object,
 };
 
 export default Login;
