@@ -1,6 +1,6 @@
 {
-  "name": "react-starter-kit",
-  "version": "1.0.0",
+  "name": "react-spa-starter-kit",
+  "version": "1.0.1",
   "main": "src/index.js",
   "author": "Haider Ali Anjum",
   "license": "MIT",

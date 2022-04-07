@@ -1,15 +1,9 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import moment from 'moment';
-import { useTranslation, withTranslation } from 'react-i18next';
-
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import { useTranslation } from 'react-i18next';
 
 import MUITable from '../../../components/common/MUITable';
-import AppLoader from '../../../components/common/AppLoader';
 import { orderConfig } from '../../../utils/data/tableConfigs';
-import { orderTypes } from '../../../utils/data/enumMap';
 import listData from './data.json';
 import './dashboard.scss';
 
