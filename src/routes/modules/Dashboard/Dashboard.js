@@ -1,11 +1,10 @@
 import React from 'react';
-import propTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 
 import MUITable from '../../../components/common/MUITable';
-import { orderConfig } from '../../../utils/data/tableConfigs';
 import listData from './data.json';
 import './dashboard.scss';
+import tableConfig from './tableConfig';
 
 const Dashboard = () => {
   const isStuck = record => {
@@ -65,7 +64,7 @@ const Dashboard = () => {
               descending: true,
               onSort: () => {},
             }}
-            config={orderConfig}
+            config={tableConfig}
             isLoading={false}
             list={normalizeTableData(listData)}
           />
@@ -73,16 +72,6 @@ const Dashboard = () => {
       </div>
     </React.Fragment>
   );
-};
-
-Dashboard.propTypes = {
-  t: propTypes.func,
-  dashboardStats: propTypes.object,
-  KPIStats: propTypes.object,
-  orderList: propTypes.object,
-  getRecentOrder: propTypes.func,
-  getDashboardStats: propTypes.func,
-  getDashboardOrderStats: propTypes.func,
 };
 
 export default Dashboard;
